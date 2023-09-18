@@ -372,6 +372,7 @@ a > span {
     .header {
         height: 88px;
         padding: 15px;
+        padding-top: 0;
         border-bottom: 1px solid var(--under-line);
         background-color: var(--carousel-background);
     }
