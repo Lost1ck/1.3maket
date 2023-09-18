@@ -354,7 +354,7 @@ a > span {
     }
 
     .divider {
-        background-image: url(/assets/img/divider.svg);
+        background-image: url(assets/img/divider.svg);
         width: 2px;
         height: 32px;
         border-radius: 1px;
@@ -461,7 +461,7 @@ a > span {
     }
 
     .divider {
-        background-image: url(/assets/img/divider.svg);
+        background-image: url(assets/img/divider.svg);
         width: 2px;
         height: 32px;
         border-radius: 1px;
