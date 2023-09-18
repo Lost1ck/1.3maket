@@ -249,6 +249,13 @@ a > span {
     background: var(--main-background); 
 }
 
+.divider {
+    background-image: url(/assets/img/divider.svg);
+    width: 2px;
+    height: 32px;
+    border-radius: 1px;
+}
+
 
 @media (min-width: 768px) and (max-width: 1120px) {
     
@@ -352,12 +359,12 @@ a > span {
         margin-right: 15px;
     }
 
-    .divider {
+    /* .divider {
         background-image: url(../assets/img/divider.svg);
         width: 2px;
         height: 32px;
         border-radius: 1px;
-    }
+    } */
 
     /* ---- carousel ---- */
 
@@ -457,12 +464,12 @@ a > span {
         /* background: var(--main-background); */
     }
 
-    .divider {
-        background-image: url(../assets/img/divider.svg);
+    /* .divider {
+        background-image: url(/assets/img/divider.svg);
         width: 2px;
         height: 32px;
         border-radius: 1px;
-    }
+    } */
 
     .items {
         margin-right: 15px;
