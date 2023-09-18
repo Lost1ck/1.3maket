@@ -61,7 +61,7 @@ a:visited {
     /* ----header---- */
 .header {
     background-color: var(--main-background);
-    height: 90px;
+    height: auto;
     padding-top: 43px;
     max-width: 1120px;
 }
@@ -299,7 +299,6 @@ a > span {
     }
 
     .header {
-        height: 88px;
         padding: 15px;
         display: block;
         border-bottom: 1px solid var(--under-line);
@@ -354,7 +353,7 @@ a > span {
     }
 
     .divider {
-        background-image: url(assets/img/divider.svg);
+        background-image: url(/assets/img/divider.svg);
         width: 2px;
         height: 32px;
         border-radius: 1px;
@@ -370,8 +369,6 @@ a > span {
 @media (min-width:320px) and (max-width:767px) {
     
     .header {
-        height: 88px;
-        padding: 15px;
         padding-top: 0;
         border-bottom: 1px solid var(--under-line);
         background-color: var(--carousel-background);
