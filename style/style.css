@@ -55,6 +55,10 @@ a:visited {
     color: var(--black-text);
 }
 
+.logo:nth-child(2) {
+    display: none;
+}
+
 .container {
     max-width: 1120px;
 }
@@ -286,6 +290,12 @@ a > span {
         border-bottom-right-radius: 10px;
     }
 
+    .logo:nth-child(2) {
+        padding-top: 20px;
+        background: var(--main-background);
+        display: block;
+    }
+
     .carousel__list {
         overflow: hidden;
         overflow-x: scroll;
@@ -389,11 +399,17 @@ a > span {
         display: inherit;
     }
 
-    .container + .logo {
+    .logo:nth-child(2) {
+        padding-top: 20px;
+        display: block;
+        background: var(--main-background);
+    }
+
+    /* .container + .logo {
         display: block;
         padding: 20px;
         background: var(--main-background);
-    }
+    } */
 
     .logo--h1::after {
         position: absolute;
